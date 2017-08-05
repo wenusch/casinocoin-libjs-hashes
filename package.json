@@ -1,6 +1,6 @@
 {
     "name": "casinocoin-libjs-hashes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Compute hashes of Casinocoin objects",
     "license": "ISC",
     "scripts": {
@@ -22,7 +22,7 @@
         "bignumber.js": "^2.0.3",
         "create-hash": "^1.1.2",
         "casinocoin-libjs-address-codec": "^1.0.0",
-        "casinocoin-libjs-binary-codec": "^1.0.0"
+        "casinocoin-libjs-binary-codec": "^1.0.2"
     },
     "devDependencies": {
         "mocha": "*"
