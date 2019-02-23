@@ -4,7 +4,8 @@
     "description": "Compute hashes of Casinocoin objects",
     "license": "ISC",
     "scripts": {
-        "test": "mocha"
+        "test": "mocha",
+        "lint": "tslint -p ./"
     },
     "repository": {
         "type": "git",
@@ -19,12 +20,19 @@
         "node": ">=0.12.0"
     },
     "dependencies": {
+        "bignumber": "^1.1.0",
         "bignumber.js": "^2.0.3",
-        "create-hash": "^1.1.2",
         "casinocoin-libjs-address-codec": "^1.0.0",
-        "casinocoin-libjs-binary-codec": "^1.0.3"
+        "casinocoin-libjs-binary-codec": "^1.0.3",
+        "create-hash": "^1.1.2"
     },
     "devDependencies": {
-        "mocha": "*"
+        "@types/node": "^8.0.53",
+        "mocha": "*",
+        "ts-loader": "^5.3.3",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.12.1",
+        "tslint-eslint-rules": "^4.1.1",
+        "typescript": "^3.2.4"
     }
 }

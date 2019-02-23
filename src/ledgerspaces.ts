@@ -1,7 +1,8 @@
 /**
  * Casinocoin ledger namespace prefixes.
  *
- * The Casinocoin ledger is a key-value store. In order to avoid name collisions,
+ * The Casinocoin ledger is a key-value store.
+ * In order to avoid name collisions,
  * names are partitioned into namespaces.
  *
  * Each namespace is just a single character prefix.
@@ -21,4 +22,4 @@ module.exports = {
     signerList: 'S',
     escrow: 'u',
     paychan: 'x'
-};
+}
